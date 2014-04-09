@@ -90,8 +90,6 @@ define(['buffer'], function (buffer) {
       return _crc32.apply(null, arguments) >>> 0;
     };
 
-    module.exports = crc32;
-
     return crc32;
 
 });
