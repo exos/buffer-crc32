@@ -1,7 +1,7 @@
 {
   "name": "buffer-crc32",
   "main": "index.js",
-  "version": "0.2.1",
+  "version": "0.3.2",
   "homepage": "https://github.com/brianloveswords/buffer-crc32",
   "authors": [
     "Brian J. Brennan <brianloveswords@gmail.com> (http://bjb.io)"
