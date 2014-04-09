@@ -1,0 +1,32 @@
+{
+  "name": "buffer-crc32",
+  "main": "index.js",
+  "version": "0.2.1",
+  "homepage": "https://github.com/brianloveswords/buffer-crc32",
+  "authors": [
+    "Brian J. Brennan <brianloveswords@gmail.com> (http://bjb.io)"
+  ],
+  "description": "A pure javascript CRC32 algorithm that plays nice with binary data",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "crc32",
+    "hash",
+    "sum",
+    "checksum",
+    "crc"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "buffer": "~3.24.10"
+  }
+}

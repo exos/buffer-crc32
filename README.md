@@ -35,6 +35,12 @@ var partialCrc = crc32(' ', partialCrc);
 var finalCrc = crc32('bros', partialCrc); // -> <Buffer 47 fa 55 70>
 ```
 
+# With bower
+
+```
+bower install buffer-crc32
+```
+
 # tests
 This was tested against the output of zlib's crc32 method. You can run
 the tests with`npm test` (requires tap)

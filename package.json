@@ -4,8 +4,13 @@
   "description": "A pure javascript CRC32 algorithm that plays nice with binary data",
   "version": "0.2.1",
   "contributors": [
-    { "name": "Vladimir Kuznetsov",
+    {
+      "name": "Vladimir Kuznetsov",
       "github": "mistakster"
+    },
+    {
+      "name": "Oscar Gentilezza",
+      "github": "exos"
     }
   ],
   "homepage": "https://github.com/brianloveswords/buffer-crc32",
@@ -17,7 +22,9 @@
   "scripts": {
     "test": "./node_modules/.bin/tap tests/*.test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "amd-loader": "0.0.5"
+  },
   "devDependencies": {
     "tap": "~0.2.5"
   },
