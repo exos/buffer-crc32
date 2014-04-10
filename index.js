@@ -1,5 +1,9 @@
 
-require('amd-loader');
+try {
+    require('amd-loader');
+} catch (e) {
+    // pass
+}
 
 define(['buffer'], function (buffer) {
 
